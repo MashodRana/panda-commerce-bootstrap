@@ -7,10 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Commerce</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/0f42c19b3f.js" crossorigin="anonymous"></script>
+
     <!-- Style sheet Bootstrap -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 
 
 </head>
@@ -53,14 +67,109 @@
     </header>
 
     <main>
-        <section class="container">
+        <section class="container my-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="banner bg-primary row px-3 ">
+                            <div class="banner-captions col-lg-7 col-md-7 mt-5">
+                                <h1 class="fw-bolder">Cool Dude Headphone</h1>
+                                <p class="mb-2">This is the best headphone in the world for people who just want to
+                                    waste time in
+                                    front of funky
+                                    world.</p>
+                                <h1 class="price mb-2">$420</h1>
+                                <a href="#" class="custom-link btn btn-secondary">
+                                    Buy Now &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <!-- <button class="buy-now-button btn btn-secondary">Buy Now</button> -->
+                            </div>
+                            <div class="banner-img col-lg-5 col-md-5 my-3">
+                                <img class="img-fluid" width="402" height="378" src="images/banner-images/headphone.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner bg-primary row px-3">
+                            <div class="banner-captions col-lg-7 col-md-7 mt-5">
+                                <h1 class="fw-bolder">Cool Dude Headphone</h1>
+                                <p class="mb-2">This is the best headphone in the world for people who just want to
+                                    waste time in
+                                    front of funky
+                                    world.</p>
+                                <h1 class="price mb-2">$420</h1>
+                                <a href="#" class="custom-link btn btn-secondary">
+                                    Buy Now &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <!-- <button class="buy-now-button btn btn-secondary">Buy Now</button> -->
+                            </div>
+                            <div class="banner-img col-lg-5 col-md-5 my-3">
+                                <img class="img-fluid" width="402" height="378" src="images/banner-images/tv.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner bg-primary row px-3">
+                            <div class="banner-captions col-lg-7 col-md-7 mt-5">
+                                <h1 class="fw-bolder">Cool Dude Headphone</h1>
+                                <p class="mb-2">This is the best headphone in the world for people who just want to
+                                    waste time in
+                                    front of funky
+                                    world.</p>
+                                <h1 class="price mb-2">$420</h1>
+                                <a href="#" class="custom-link btn btn-secondary">
+                                    Buy Now &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                                <!-- <button class="buy-now-button btn btn-secondary">Buy Now</button> -->
+                            </div>
+                            <div class="banner-img col-lg-5 col-md-5 my-3">
+                                <img class="img-fluid" width="402" height="378" src="images/banner-images/xbox.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </section>
+
+        <section class="categories container ">
+            <h2 class="fw-bold">Categories</h2>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-lg-4">
+                        <div class=" p-3 rounded-3 d-flex justify-content-around align-items-center bg-primary">
+                            <h2>Watches</h2>
+                            <img height="90" src="images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class=" p-3 rounded-3 d-flex justify-content-around align-items-center bg-primary">
+                            <h2>Bags</h2>
+                            <img height="90" src="images/categories/bag.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class=" p-3 rounded-3 d-flex justify-content-around align-items-center bg-primary">
+                            <h2>Shoes</h2>
+                            <img height="90" src="images/categories/shoes.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
     </main>
 
-    <footer>
+    <!-- Footer -->
 
-    </footer>
+    <!-- Footer -->
 
     <!-- JS for bootstrap -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
